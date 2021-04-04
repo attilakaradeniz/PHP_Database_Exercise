@@ -2,7 +2,7 @@
 
 Planning and implementing a web application using **products** from a database,
 reads and outputs according to categories. The application offers the possibility of lists of
-output product categories and products with **MVC Design Pattern`**. 
+output product categories and products with **MVC Design Pattern**. 
 A prepared database given.
 In the DB you will find amongst other, two tables, which show the products and the
 product categories (product_types) that are accessed via a foreign key ([from
@@ -47,3 +47,7 @@ Action output: listTypes:
 "url": "http: //localhost/Uebung3/index.php? action = listProductsByTypeId & typeId = 2"
 }, ... and so on
 ]
+
+###### Rokie / Student Notes
+
+Some configuration lines are misplaced like Database Credentials. They are belong in a config file.
